@@ -76,12 +76,6 @@ Q:\Professores\Gallo\2022\2º DS\PW\Turma B\PatoRestaurant\obj\Debug\net6.0\Pato
 Q:\Professores\Gallo\2022\2º DS\PW\Turma B\PatoRestaurant\obj\Debug\net6.0\ref\PatoRestaurant.dll
 C:\Users\etec\Desktop\PatoRestaurant\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\etec\Desktop\PatoRestaurant\bin\Debug\net6.0\appsettings.json
-C:\Users\etec\Desktop\PatoRestaurant\bin\Debug\net6.0\Docs\Templates\material-dashboard-2\composer.json
-C:\Users\etec\Desktop\PatoRestaurant\bin\Debug\net6.0\Docs\Templates\material-dashboard-2\package.json
-C:\Users\etec\Desktop\PatoRestaurant\bin\Debug\net6.0\Docs\Templates\pato-master\fonts\ionicons-2.0.1\builder\build_data.json
-C:\Users\etec\Desktop\PatoRestaurant\bin\Debug\net6.0\Docs\Templates\pato-master\fonts\ionicons-2.0.1\builder\manifest.json
-C:\Users\etec\Desktop\PatoRestaurant\bin\Debug\net6.0\Docs\Templates\pato-master\fonts\themify\Themify IconFonts 5-23-2014.json
-C:\Users\etec\Desktop\PatoRestaurant\bin\Debug\net6.0\Docs\Templates\pato-master\includes\config.json
 C:\Users\etec\Desktop\PatoRestaurant\bin\Debug\net6.0\PatoRestaurant.staticwebassets.runtime.json
 C:\Users\etec\Desktop\PatoRestaurant\bin\Debug\net6.0\PatoRestaurant.exe
 C:\Users\etec\Desktop\PatoRestaurant\bin\Debug\net6.0\PatoRestaurant.deps.json

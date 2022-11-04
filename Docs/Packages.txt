@@ -18,3 +18,13 @@ Para criar uma migração:
     dotnet ef migrations add Criar-Banco
 3º Usar o comando para atualizar o banco de dados
     dotnet ef database update
+
+Para Realizar o scaffoldding do Identity
+-- Passos opciopnais.
+dotnet aspnet-codegenerator identity -h
+
+-- Instalar o pacote Design
+dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design
+
+-- Extrair do pacote Identity as páginas
+dotnet aspnet-codegenerator identity -dc PatoRestaurant.Data

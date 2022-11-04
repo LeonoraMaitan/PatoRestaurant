@@ -20,10 +20,10 @@ namespace PatoRestaurant.Models
         public string Description { get; set; }
 
         [Display(Name = "Preço")]
-        [Column(TypeName = "deciaml(10,2)")]
+        [Column(TypeName = "decimal(10,2)")]
         [Required(ErrorMessage = "Informe o {0}")]
         [DisplayFormat(DataFormatString = "{0:N2}", ApplyFormatInEditMode = true)]
-        public Decimal Price { get; set; }
+        public decimal Price { get; set; }
 
         
         [Display(Name = "Data de Cadastro")]
