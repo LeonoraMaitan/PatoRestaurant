@@ -104,10 +104,11 @@
       mensagemErro += $(this).text() + '<br/>';
     });
     if (mensagemErro != ''){
+      $("#Input_Email").focus();
       Swal.fire({
-  icon: 'error',
-  title: 'Problemas ao Entrar',
-  html: mensagemErro
+      icon: 'error',
+      title: 'Problemas ao Entrar',
+      html: mensagemErro
   
 })
     }
