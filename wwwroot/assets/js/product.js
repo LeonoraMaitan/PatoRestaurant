@@ -36,7 +36,7 @@ function loadDataTable(){
             "search": "Pesquisar",
             "zeroRecords": "Nenhum resultado encontrado",
             "info": "Exibindo páginas _PAGE_ de _PAGES_",
-            "infoEmpty": "Sem ados para exibir",
+            "infoEmpty": "Sem dados para exibir",
             "infoFiltered": "(filtrado de _MAX_ registros)",
             "paginate": {
                 "first": "Primeiro",
