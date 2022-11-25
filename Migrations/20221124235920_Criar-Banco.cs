@@ -336,14 +336,14 @@ namespace PatoRestaurant.Migrations
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "130302b3-e242-4dfe-83b6-24ced7d53dff", "8998a54a-aabb-44bf-b4ff-f1b5053bdc4b", "Administrador", "ADMINISTRADOR" },
-                    { "ca00880e-8179-4825-ae13-b63d84713b21", "05489962-def2-4b00-a857-82555edaa83d", "Usuário", "USUÁRIO" }
+                    { "1cfd7dfe-7944-4aa0-828f-93d06913107e", "3fb32fc8-2597-4297-80b9-1cd8a33c1a6d", "Usuário", "USUÁRIO" },
+                    { "badbe06b-d951-47d0-aec1-17fa19adc2fb", "a6100dc1-ffa0-48ca-a734-17b9229ee137", "Administrador", "ADMINISTRADOR" }
                 });
 
             migrationBuilder.InsertData(
                 table: "AspNetUsers",
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "Name", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "ProfilePicture", "SecurityStamp", "TwoFactorEnabled", "UserName" },
-                values: new object[] { "781f4f67-1709-4bf4-ad8e-da3529b86b22", 0, "2746442b-e67a-4cfc-9011-655b7b3db79a", "admin@patorestaurant.com", true, false, null, "Leonora Maitan", "ADMIN@PATORESTAURANT.COM", "ADMIN@PATORESTAURANT.COM", "AQAAAAEAACcQAAAAEEreE+OWW5f7RGzcgDILfBC86VH1JnGAw2J6gl/Ujnzwgse5lEc0VlD2a41zzBaMFA==", null, false, "\\img\\avatar.png", "48412952", false, "admin@patorestaurant.com" });
+                values: new object[] { "4cbe87e2-6ca2-49fe-931f-61f4c25b453a", 0, "68d41268-7162-45bd-a577-fee5b50816f0", "admin@patorestaurant.com", true, false, null, "Leonora Maitan", "ADMIN@PATORESTAURANT.COM", "ADMIN@PATORESTAURANT.COM", "AQAAAAEAACcQAAAAEOcdh0zAwWbvmL1FcLWSYB7Grk+ItYdY5Xb2MFQCLG2gtcndWwy/F6ap9W5WpOl+PQ==", null, false, "\\img\\avatar.png", "48412952", false, "admin@patorestaurant.com" });
 
             migrationBuilder.InsertData(
                 table: "Category",
@@ -372,7 +372,7 @@ namespace PatoRestaurant.Migrations
             migrationBuilder.InsertData(
                 table: "AspNetUserRoles",
                 columns: new[] { "RoleId", "UserId" },
-                values: new object[] { "130302b3-e242-4dfe-83b6-24ced7d53dff", "781f4f67-1709-4bf4-ad8e-da3529b86b22" });
+                values: new object[] { "badbe06b-d951-47d0-aec1-17fa19adc2fb", "4cbe87e2-6ca2-49fe-931f-61f4c25b453a" });
 
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",

@@ -3,29 +3,43 @@
     Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
 }
 
-<h1>Index</h1>
+<div class="row">
+    <div class="col-12">
+        <div class="card my-4">
+            <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
+                <div class="bg-gradient-danger shadow-primary border-radius-lg pt-4 pb-3">
+                    <h5 class="text-white text-capitalize ps-3">Produtos</h5>
+                    <h6 class="text-white text-capitalize ps-3">Listagem</h6>
+                </div>
+            </div>
+            <div class="card-body pb-2">
+                <a class="btn btn-secondary" asp-action="Create">Adicionar Novo</a>
+                <div class="table-responsive">
+                    <table id="tblData" class="table table-striped align-items-center mb-0" style="width:100%">
+                        <thead>
+                            <tr>
+                                <th class="text-uppercase text-secondary text-xs font-weight-bolder">
+                                    Nome
+                                </th>
+                                <th class="text-uppercase text-secondary text-xs font-weight-bolder">
+                                    Categoria
+                                </th>
+                                <th class="text-uppercase text-secondary text-xs font-weight-bolder">
+                                    Preço
+                                </th>
+                                <th class="text-uppercase text-secondary text-xs font-weight-bolder">
+                                    Ações
+                                </th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table id="tblData" class="table" style="width:100%">
-    <thead>
-        <tr>
-            <th>
-                Nome
-            </th>
-            <th>
-                Categoria
-            </th>
-            <th>
-                Preço
-            </th>
-            <th>Ações</th>
-        </tr>
-    </thead>
-</table>
-
-@section Scripts {
-<script src="~/assets/js/delete.js"></script>
-<script src="~/assets/js/product.js"></script>
+@section Scripts{
+    <script src="~/assets/js/delete.js"></script>
+    <script src="~/assets/js/product.js"></script>
 }

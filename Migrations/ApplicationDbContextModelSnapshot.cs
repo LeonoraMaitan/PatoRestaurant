@@ -47,15 +47,15 @@ namespace PatoRestaurant.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "130302b3-e242-4dfe-83b6-24ced7d53dff",
-                            ConcurrencyStamp = "8998a54a-aabb-44bf-b4ff-f1b5053bdc4b",
+                            Id = "badbe06b-d951-47d0-aec1-17fa19adc2fb",
+                            ConcurrencyStamp = "a6100dc1-ffa0-48ca-a734-17b9229ee137",
                             Name = "Administrador",
                             NormalizedName = "ADMINISTRADOR"
                         },
                         new
                         {
-                            Id = "ca00880e-8179-4825-ae13-b63d84713b21",
-                            ConcurrencyStamp = "05489962-def2-4b00-a857-82555edaa83d",
+                            Id = "1cfd7dfe-7944-4aa0-828f-93d06913107e",
+                            ConcurrencyStamp = "3fb32fc8-2597-4297-80b9-1cd8a33c1a6d",
                             Name = "Usuário",
                             NormalizedName = "USUÁRIO"
                         });
@@ -146,8 +146,8 @@ namespace PatoRestaurant.Migrations
                     b.HasData(
                         new
                         {
-                            UserId = "781f4f67-1709-4bf4-ad8e-da3529b86b22",
-                            RoleId = "130302b3-e242-4dfe-83b6-24ced7d53dff"
+                            UserId = "4cbe87e2-6ca2-49fe-931f-61f4c25b453a",
+                            RoleId = "badbe06b-d951-47d0-aec1-17fa19adc2fb"
                         });
                 });
 
@@ -245,16 +245,16 @@ namespace PatoRestaurant.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "781f4f67-1709-4bf4-ad8e-da3529b86b22",
+                            Id = "4cbe87e2-6ca2-49fe-931f-61f4c25b453a",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "2746442b-e67a-4cfc-9011-655b7b3db79a",
+                            ConcurrencyStamp = "68d41268-7162-45bd-a577-fee5b50816f0",
                             Email = "admin@patorestaurant.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             Name = "Leonora Maitan",
                             NormalizedEmail = "ADMIN@PATORESTAURANT.COM",
                             NormalizedUserName = "ADMIN@PATORESTAURANT.COM",
-                            PasswordHash = "AQAAAAEAACcQAAAAEEreE+OWW5f7RGzcgDILfBC86VH1JnGAw2J6gl/Ujnzwgse5lEc0VlD2a41zzBaMFA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEOcdh0zAwWbvmL1FcLWSYB7Grk+ItYdY5Xb2MFQCLG2gtcndWwy/F6ap9W5WpOl+PQ==",
                             PhoneNumberConfirmed = false,
                             ProfilePicture = "\\img\\avatar.png",
                             SecurityStamp = "48412952",
